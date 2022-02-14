@@ -1,0 +1,390 @@
+2022-02-14 10:09:29.340 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/SignUp.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-02-14 10:09:29.353 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-02-14 10:09:29.364 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-14 10:09:29.407 +07:00 [INF] User profile is available. Using 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-14 10:09:29.454 +07:00 [DBG] Hosting starting
+2022-02-14 10:09:29.458 +07:00 [DBG] Reading data from file 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys\key-fee3c957-2563-47ea-90ad-df03e57cbfbf.xml'.
+2022-02-14 10:09:29.468 +07:00 [DBG] Found key {fee3c957-2563-47ea-90ad-df03e57cbfbf}.
+2022-02-14 10:09:29.476 +07:00 [DBG] Considering key {fee3c957-2563-47ea-90ad-df03e57cbfbf} with expiration date 2022-03-25 17:49:38Z as default key.
+2022-02-14 10:09:29.479 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:09:29.480 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-02-14 10:09:29.481 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:09:29.484 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-02-14 10:09:29.485 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-02-14 10:09:29.488 +07:00 [DBG] Using key {fee3c957-2563-47ea-90ad-df03e57cbfbf} as the default key.
+2022-02-14 10:09:29.488 +07:00 [DBG] Key ring with default key {fee3c957-2563-47ea-90ad-df03e57cbfbf} was loaded during application startup.
+2022-02-14 10:09:29.594 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3B475824F9E32E8BDAB1010FF7C525A6994862F7)
+2022-02-14 10:09:29.635 +07:00 [INF] Now listening on: https://localhost:7130
+2022-02-14 10:09:29.635 +07:00 [INF] Now listening on: http://localhost:5130
+2022-02-14 10:09:29.635 +07:00 [DBG] Loaded hosting startup assembly downstreem
+2022-02-14 10:09:29.635 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-14 10:09:29.635 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-14 10:09:29.635 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-14 10:09:29.635 +07:00 [INF] Hosting environment: Development
+2022-02-14 10:09:29.635 +07:00 [INF] Content root path: D:\CMC\downstreem\
+2022-02-14 10:09:29.635 +07:00 [DBG] Hosting started
+2022-02-14 10:09:30.007 +07:00 [DBG] Connection id "0HMFFCTLARCLE" received FIN.
+2022-02-14 10:09:30.007 +07:00 [DBG] Connection id "0HMFFCTLARCLD" received FIN.
+2022-02-14 10:09:30.013 +07:00 [DBG] Connection id "0HMFFCTLARCLD" accepted.
+2022-02-14 10:09:30.013 +07:00 [DBG] Connection id "0HMFFCTLARCLE" accepted.
+2022-02-14 10:09:30.013 +07:00 [DBG] Connection id "0HMFFCTLARCLD" started.
+2022-02-14 10:09:30.013 +07:00 [DBG] Connection id "0HMFFCTLARCLE" started.
+2022-02-14 10:09:30.024 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:09:30.024 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:09:30.168 +07:00 [DBG] Connection id "0HMFFCTLARCLD" stopped.
+2022-02-14 10:09:30.168 +07:00 [DBG] Connection id "0HMFFCTLARCLE" stopped.
+2022-02-14 10:09:30.175 +07:00 [DBG] Connection id "0HMFFCTLARCLD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:09:30.175 +07:00 [DBG] Connection id "0HMFFCTLARCLE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:09:30.205 +07:00 [DBG] Connection id "0HMFFCTLARCLF" accepted.
+2022-02-14 10:09:30.205 +07:00 [DBG] Connection id "0HMFFCTLARCLF" started.
+2022-02-14 10:09:30.243 +07:00 [DBG] Connection 0HMFFCTLARCLF established using the following protocol: "Tls13"
+2022-02-14 10:09:30.285 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - -
+2022-02-14 10:09:30.308 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-14 10:09:30.310 +07:00 [DBG] The request path / does not match a supported file type
+2022-02-14 10:09:30.333 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-02-14 10:09:30.336 +07:00 [DBG] Endpoint 'downstreem.Controllers.UserController.Login (downstreem)' with route pattern '{controller=User}/{action=Login}/{id?}' is valid for the request path '/'
+2022-02-14 10:09:30.337 +07:00 [DBG] Request matched endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:09:30.346 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2022-02-14 10:09:30.347 +07:00 [INF] Executing endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:09:30.372 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller downstreem.Controllers.UserController (downstreem).
+2022-02-14 10:09:30.372 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-14 10:09:30.373 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:09:30.373 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-14 10:09:30.373 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-14 10:09:30.373 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:09:30.374 +07:00 [DBG] Executing controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:09:30.488 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-02-14 10:09:30.616 +07:00 [DBG] Executed controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:09:30.618 +07:00 [DBG] View lookup cache miss for view 'Login' in controller 'User'.
+2022-02-14 10:09:30.621 +07:00 [INF] Executing ViewResult, running view Login.
+2022-02-14 10:09:30.624 +07:00 [DBG] The view path '/Views/User/Login.cshtml' was found in 4.1629ms.
+2022-02-14 10:09:30.651 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:09:30.658 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:09:30.658 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:09:30.661 +07:00 [DBG] An antiforgery cookie token was reused.
+2022-02-14 10:09:30.683 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'User'.
+2022-02-14 10:09:30.702 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:09:30.702 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in /Home/Index and 
+2022-02-14 10:09:30.702 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /Home/Index
+2022-02-14 10:09:30.707 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:09:30.707 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:09:30.707 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:09:30.711 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'User'.
+2022-02-14 10:09:30.765 +07:00 [INF] Executed ViewResult - view Login executed in 148.1362ms.
+2022-02-14 10:09:30.768 +07:00 [INF] Executed action downstreem.Controllers.UserController.Login (downstreem) in 394.4988ms
+2022-02-14 10:09:30.769 +07:00 [INF] Executed endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:09:30.774 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-14 10:09:30.787 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-14 10:09:30.793 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - - - 200 - text/html;+charset=utf-8 511.0263ms
+2022-02-14 10:09:30.813 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - -
+2022-02-14 10:09:30.816 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - - - 200 11944 application/javascript;+charset=utf-8 3.0378ms
+2022-02-14 10:10:53.122 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/SignUp.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-02-14 10:10:53.133 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-02-14 10:10:53.144 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-14 10:10:53.182 +07:00 [INF] User profile is available. Using 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-14 10:10:53.225 +07:00 [DBG] Hosting starting
+2022-02-14 10:10:53.229 +07:00 [DBG] Reading data from file 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys\key-fee3c957-2563-47ea-90ad-df03e57cbfbf.xml'.
+2022-02-14 10:10:53.238 +07:00 [DBG] Found key {fee3c957-2563-47ea-90ad-df03e57cbfbf}.
+2022-02-14 10:10:53.246 +07:00 [DBG] Considering key {fee3c957-2563-47ea-90ad-df03e57cbfbf} with expiration date 2022-03-25 17:49:38Z as default key.
+2022-02-14 10:10:53.248 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:10:53.249 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-02-14 10:10:53.250 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:10:53.253 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-02-14 10:10:53.255 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-02-14 10:10:53.257 +07:00 [DBG] Using key {fee3c957-2563-47ea-90ad-df03e57cbfbf} as the default key.
+2022-02-14 10:10:53.257 +07:00 [DBG] Key ring with default key {fee3c957-2563-47ea-90ad-df03e57cbfbf} was loaded during application startup.
+2022-02-14 10:10:53.351 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3B475824F9E32E8BDAB1010FF7C525A6994862F7)
+2022-02-14 10:10:53.404 +07:00 [INF] Now listening on: https://localhost:7130
+2022-02-14 10:10:53.405 +07:00 [INF] Now listening on: http://localhost:5130
+2022-02-14 10:10:53.405 +07:00 [DBG] Loaded hosting startup assembly downstreem
+2022-02-14 10:10:53.405 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-14 10:10:53.405 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-14 10:10:53.405 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-14 10:10:53.405 +07:00 [INF] Hosting environment: Development
+2022-02-14 10:10:53.405 +07:00 [INF] Content root path: D:\CMC\downstreem\
+2022-02-14 10:10:53.405 +07:00 [DBG] Hosting started
+2022-02-14 10:10:53.574 +07:00 [DBG] Connection id "0HMFFCUE7PF8O" accepted.
+2022-02-14 10:10:53.574 +07:00 [DBG] Connection id "0HMFFCUE7PF8P" accepted.
+2022-02-14 10:10:53.574 +07:00 [DBG] Connection id "0HMFFCUE7PF8P" started.
+2022-02-14 10:10:53.574 +07:00 [DBG] Connection id "0HMFFCUE7PF8O" started.
+2022-02-14 10:10:53.625 +07:00 [DBG] Connection id "0HMFFCUE7PF8O" received FIN.
+2022-02-14 10:10:53.625 +07:00 [DBG] Connection id "0HMFFCUE7PF8P" received FIN.
+2022-02-14 10:10:53.635 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:10:53.635 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:10:53.665 +07:00 [DBG] Connection id "0HMFFCUE7PF8P" stopped.
+2022-02-14 10:10:53.665 +07:00 [DBG] Connection id "0HMFFCUE7PF8O" stopped.
+2022-02-14 10:10:53.666 +07:00 [DBG] Connection id "0HMFFCUE7PF8P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:10:53.666 +07:00 [DBG] Connection id "0HMFFCUE7PF8O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:10:53.819 +07:00 [DBG] Connection id "0HMFFCUE7PF8Q" accepted.
+2022-02-14 10:10:53.820 +07:00 [DBG] Connection id "0HMFFCUE7PF8Q" started.
+2022-02-14 10:10:53.854 +07:00 [DBG] Connection 0HMFFCUE7PF8Q established using the following protocol: "Tls13"
+2022-02-14 10:10:53.903 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - -
+2022-02-14 10:10:53.938 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-14 10:10:53.940 +07:00 [DBG] The request path / does not match a supported file type
+2022-02-14 10:10:53.976 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-02-14 10:10:53.979 +07:00 [DBG] Endpoint 'downstreem.Controllers.UserController.Login (downstreem)' with route pattern '{controller=User}/{action=Login}/{id?}' is valid for the request path '/'
+2022-02-14 10:10:53.980 +07:00 [DBG] Request matched endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:10:53.992 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2022-02-14 10:10:53.994 +07:00 [INF] Executing endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:10:54.019 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller downstreem.Controllers.UserController (downstreem).
+2022-02-14 10:10:54.020 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-14 10:10:54.020 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:10:54.020 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-14 10:10:54.020 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-14 10:10:54.020 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:10:54.021 +07:00 [DBG] Executing controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:10:54.151 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-02-14 10:10:54.301 +07:00 [DBG] Executed controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:10:54.303 +07:00 [DBG] View lookup cache miss for view 'Login' in controller 'User'.
+2022-02-14 10:10:54.307 +07:00 [INF] Executing ViewResult, running view Login.
+2022-02-14 10:10:54.310 +07:00 [DBG] The view path '/Views/User/Login.cshtml' was found in 4.1784ms.
+2022-02-14 10:10:54.335 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:10:54.340 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:10:54.340 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:10:54.342 +07:00 [DBG] An antiforgery cookie token was reused.
+2022-02-14 10:10:54.362 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'User'.
+2022-02-14 10:10:54.376 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:10:54.377 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in /Home/Index and 
+2022-02-14 10:10:54.377 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /Home/Index
+2022-02-14 10:10:54.382 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:10:54.382 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:10:54.382 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:10:54.385 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'User'.
+2022-02-14 10:10:54.437 +07:00 [INF] Executed ViewResult - view Login executed in 134.4164ms.
+2022-02-14 10:10:54.439 +07:00 [INF] Executed action downstreem.Controllers.UserController.Login (downstreem) in 418.9641ms
+2022-02-14 10:10:54.440 +07:00 [INF] Executed endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:10:54.445 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-14 10:10:54.458 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-14 10:10:54.462 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - - - 200 - text/html;+charset=utf-8 563.1165ms
+2022-02-14 10:10:54.474 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - -
+2022-02-14 10:10:54.477 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - - - 200 11944 application/javascript;+charset=utf-8 2.4768ms
+2022-02-14 10:11:25.441 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/SignUp.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-02-14 10:11:25.449 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-02-14 10:11:25.459 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-14 10:11:25.496 +07:00 [INF] User profile is available. Using 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-14 10:11:25.533 +07:00 [DBG] Hosting starting
+2022-02-14 10:11:25.536 +07:00 [DBG] Reading data from file 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys\key-fee3c957-2563-47ea-90ad-df03e57cbfbf.xml'.
+2022-02-14 10:11:25.543 +07:00 [DBG] Found key {fee3c957-2563-47ea-90ad-df03e57cbfbf}.
+2022-02-14 10:11:25.550 +07:00 [DBG] Considering key {fee3c957-2563-47ea-90ad-df03e57cbfbf} with expiration date 2022-03-25 17:49:38Z as default key.
+2022-02-14 10:11:25.551 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:11:25.553 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-02-14 10:11:25.553 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:11:25.556 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-02-14 10:11:25.558 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-02-14 10:11:25.560 +07:00 [DBG] Using key {fee3c957-2563-47ea-90ad-df03e57cbfbf} as the default key.
+2022-02-14 10:11:25.560 +07:00 [DBG] Key ring with default key {fee3c957-2563-47ea-90ad-df03e57cbfbf} was loaded during application startup.
+2022-02-14 10:11:25.660 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3B475824F9E32E8BDAB1010FF7C525A6994862F7)
+2022-02-14 10:11:25.697 +07:00 [INF] Now listening on: https://localhost:7130
+2022-02-14 10:11:25.697 +07:00 [INF] Now listening on: http://localhost:5130
+2022-02-14 10:11:25.697 +07:00 [DBG] Loaded hosting startup assembly downstreem
+2022-02-14 10:11:25.697 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-14 10:11:25.697 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-14 10:11:25.697 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-14 10:11:25.697 +07:00 [INF] Hosting environment: Development
+2022-02-14 10:11:25.697 +07:00 [INF] Content root path: D:\CMC\downstreem\
+2022-02-14 10:11:25.697 +07:00 [DBG] Hosting started
+2022-02-14 10:11:25.906 +07:00 [DBG] Connection id "0HMFFCUNS41C3" accepted.
+2022-02-14 10:11:25.907 +07:00 [DBG] Connection id "0HMFFCUNS41C3" started.
+2022-02-14 10:11:25.910 +07:00 [DBG] Connection id "0HMFFCUNS41C4" accepted.
+2022-02-14 10:11:25.910 +07:00 [DBG] Connection id "0HMFFCUNS41C4" started.
+2022-02-14 10:11:25.945 +07:00 [DBG] Connection id "0HMFFCUNS41C3" received FIN.
+2022-02-14 10:11:25.945 +07:00 [DBG] Connection id "0HMFFCUNS41C4" received FIN.
+2022-02-14 10:11:25.951 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:11:26.000 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:11:26.022 +07:00 [DBG] Connection id "0HMFFCUNS41C3" stopped.
+2022-02-14 10:11:26.022 +07:00 [DBG] Connection id "0HMFFCUNS41C4" stopped.
+2022-02-14 10:11:26.023 +07:00 [DBG] Connection id "0HMFFCUNS41C4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:11:26.023 +07:00 [DBG] Connection id "0HMFFCUNS41C3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:11:26.198 +07:00 [DBG] Connection id "0HMFFCUNS41C5" accepted.
+2022-02-14 10:11:26.198 +07:00 [DBG] Connection id "0HMFFCUNS41C5" started.
+2022-02-14 10:11:26.245 +07:00 [DBG] Connection 0HMFFCUNS41C5 established using the following protocol: "Tls13"
+2022-02-14 10:11:26.307 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - -
+2022-02-14 10:11:26.346 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-14 10:11:26.347 +07:00 [DBG] The request path / does not match a supported file type
+2022-02-14 10:11:26.370 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-02-14 10:11:26.373 +07:00 [DBG] Endpoint 'downstreem.Controllers.UserController.Login (downstreem)' with route pattern '{controller=User}/{action=Login}/{id?}' is valid for the request path '/'
+2022-02-14 10:11:26.374 +07:00 [DBG] Request matched endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:11:26.386 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2022-02-14 10:11:26.388 +07:00 [INF] Executing endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:11:26.422 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller downstreem.Controllers.UserController (downstreem).
+2022-02-14 10:11:26.423 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-14 10:11:26.423 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:11:26.423 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-14 10:11:26.423 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-14 10:11:26.423 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:11:26.424 +07:00 [DBG] Executing controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:11:26.535 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-02-14 10:11:26.663 +07:00 [DBG] Executed controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:11:26.665 +07:00 [DBG] View lookup cache miss for view 'Login' in controller 'User'.
+2022-02-14 10:11:26.669 +07:00 [INF] Executing ViewResult, running view Login.
+2022-02-14 10:11:26.672 +07:00 [DBG] The view path '/Views/User/Login.cshtml' was found in 4.2236ms.
+2022-02-14 10:11:26.698 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:11:26.702 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:11:26.703 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:11:26.706 +07:00 [DBG] An antiforgery cookie token was reused.
+2022-02-14 10:11:26.725 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'User'.
+2022-02-14 10:11:26.741 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:11:26.741 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in /Home/Index and 
+2022-02-14 10:11:26.741 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /Home/Index
+2022-02-14 10:11:26.746 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:11:26.746 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:11:26.746 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:11:26.749 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'User'.
+2022-02-14 10:11:26.801 +07:00 [INF] Executed ViewResult - view Login executed in 135.9733ms.
+2022-02-14 10:11:26.803 +07:00 [INF] Executed action downstreem.Controllers.UserController.Login (downstreem) in 379.2047ms
+2022-02-14 10:11:26.803 +07:00 [INF] Executed endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:11:26.807 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-14 10:11:26.820 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-14 10:11:26.825 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - - - 200 - text/html;+charset=utf-8 522.9359ms
+2022-02-14 10:11:26.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - -
+2022-02-14 10:11:26.838 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - - - 200 11944 application/javascript;+charset=utf-8 3.0094ms
+2022-02-14 10:16:03.583 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Login.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/SignUp.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2022-02-14 10:16:03.591 +07:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2022-02-14 10:16:03.600 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-02-14 10:16:03.633 +07:00 [INF] User profile is available. Using 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-14 10:16:03.682 +07:00 [DBG] Hosting starting
+2022-02-14 10:16:03.686 +07:00 [DBG] Reading data from file 'C:\Users\boank\AppData\Local\ASP.NET\DataProtection-Keys\key-fee3c957-2563-47ea-90ad-df03e57cbfbf.xml'.
+2022-02-14 10:16:03.695 +07:00 [DBG] Found key {fee3c957-2563-47ea-90ad-df03e57cbfbf}.
+2022-02-14 10:16:03.702 +07:00 [DBG] Considering key {fee3c957-2563-47ea-90ad-df03e57cbfbf} with expiration date 2022-03-25 17:49:38Z as default key.
+2022-02-14 10:16:03.703 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:16:03.705 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2022-02-14 10:16:03.706 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-02-14 10:16:03.709 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2022-02-14 10:16:03.711 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2022-02-14 10:16:03.713 +07:00 [DBG] Using key {fee3c957-2563-47ea-90ad-df03e57cbfbf} as the default key.
+2022-02-14 10:16:03.714 +07:00 [DBG] Key ring with default key {fee3c957-2563-47ea-90ad-df03e57cbfbf} was loaded during application startup.
+2022-02-14 10:16:03.866 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 3B475824F9E32E8BDAB1010FF7C525A6994862F7)
+2022-02-14 10:16:03.925 +07:00 [INF] Now listening on: https://localhost:7130
+2022-02-14 10:16:03.925 +07:00 [INF] Now listening on: http://localhost:5130
+2022-02-14 10:16:03.926 +07:00 [DBG] Loaded hosting startup assembly downstreem
+2022-02-14 10:16:03.926 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-02-14 10:16:03.926 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-02-14 10:16:03.926 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-14 10:16:03.926 +07:00 [INF] Hosting environment: Development
+2022-02-14 10:16:03.926 +07:00 [INF] Content root path: D:\CMC\downstreem\
+2022-02-14 10:16:03.926 +07:00 [DBG] Hosting started
+2022-02-14 10:16:04.218 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4U" accepted.
+2022-02-14 10:16:04.218 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4T" accepted.
+2022-02-14 10:16:04.219 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4T" started.
+2022-02-14 10:16:04.219 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4U" started.
+2022-02-14 10:16:04.310 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4T" received FIN.
+2022-02-14 10:16:04.310 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4U" received FIN.
+2022-02-14 10:16:04.318 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:16:04.318 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-02-14 10:16:04.345 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4T" stopped.
+2022-02-14 10:16:04.345 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4U" stopped.
+2022-02-14 10:16:04.346 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:16:04.346 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-02-14 10:16:04.492 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4V" accepted.
+2022-02-14 10:16:04.493 +07:00 [DBG] Connection id "0HMFFD1AQ9Q4V" started.
+2022-02-14 10:16:04.524 +07:00 [DBG] Connection 0HMFFD1AQ9Q4V established using the following protocol: "Tls13"
+2022-02-14 10:16:04.582 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - -
+2022-02-14 10:16:04.629 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-02-14 10:16:04.631 +07:00 [DBG] The request path / does not match a supported file type
+2022-02-14 10:16:04.668 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-02-14 10:16:04.673 +07:00 [DBG] Endpoint 'downstreem.Controllers.UserController.Login (downstreem)' with route pattern '{controller=User}/{action=Login}/{id?}' is valid for the request path '/'
+2022-02-14 10:16:04.674 +07:00 [DBG] Request matched endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:16:04.685 +07:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2022-02-14 10:16:04.689 +07:00 [INF] Executing endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:16:04.724 +07:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller downstreem.Controllers.UserController (downstreem).
+2022-02-14 10:16:04.726 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-02-14 10:16:04.726 +07:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:16:04.727 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-02-14 10:16:04.727 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-02-14 10:16:04.727 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-02-14 10:16:04.728 +07:00 [DBG] Executing controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:16:04.856 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-02-14 10:16:05.005 +07:00 [DBG] Executed controller factory for controller downstreem.Controllers.UserController (downstreem)
+2022-02-14 10:16:05.010 +07:00 [DBG] View lookup cache miss for view 'Login' in controller 'User'.
+2022-02-14 10:16:05.014 +07:00 [INF] Executing ViewResult, running view Login.
+2022-02-14 10:16:05.016 +07:00 [DBG] The view path '/Views/User/Login.cshtml' was found in 4.9989ms.
+2022-02-14 10:16:05.047 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:16:05.052 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:16:05.052 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:16:05.055 +07:00 [DBG] An antiforgery cookie token was reused.
+2022-02-14 10:16:05.076 +07:00 [DBG] View lookup cache miss for view '_Layout' in controller 'User'.
+2022-02-14 10:16:05.105 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:16:05.105 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in /Home/Index and 
+2022-02-14 10:16:05.106 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /Home/Index
+2022-02-14 10:16:05.112 +07:00 [DBG] Found the endpoints ["Route: {controller=User}/{action=Login}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-02-14 10:16:05.112 +07:00 [DBG] Successfully processed template {controller=User}/{action=Login}/{id?} for Route: {controller=User}/{action=Login}/{id?} resulting in  and 
+2022-02-14 10:16:05.112 +07:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=User}/{action=Login}/{id?}"] with result /
+2022-02-14 10:16:05.117 +07:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'User'.
+2022-02-14 10:16:05.187 +07:00 [INF] Executed ViewResult - view Login executed in 178.1928ms.
+2022-02-14 10:16:05.189 +07:00 [INF] Executed action downstreem.Controllers.UserController.Login (downstreem) in 462.3546ms
+2022-02-14 10:16:05.190 +07:00 [INF] Executed endpoint 'downstreem.Controllers.UserController.Login (downstreem)'
+2022-02-14 10:16:05.194 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-02-14 10:16:05.211 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-02-14 10:16:05.217 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - - - 200 - text/html;+charset=utf-8 639.4707ms
+2022-02-14 10:16:05.232 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - -
+2022-02-14 10:16:05.236 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - - - 200 11944 application/javascript;+charset=utf-8 3.6712ms

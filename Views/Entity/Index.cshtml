@@ -1,0 +1,103 @@
+﻿@model List<downstreem.Models.Entity>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                JobTitle
+            </th>
+            <th>
+                Company
+            </th>
+            <th>
+                Notes
+            </th>
+            <th>
+                Emails
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                SocialMedia
+            </th>
+            <th>
+                Occurrences
+            </th>
+            <th>
+                Datefirst
+            </th>
+            <th>
+                DateLast
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SocialMedia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Occurrences)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateFirst)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateLast)
+            </td>
+            
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) |
+               @* @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                @Html.ActionLink("EditImage", "EditImage", new {  id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
