@@ -4,7 +4,65 @@
     ViewData["Title"] = "Log in";
 }
 
-<div class="row">
+@section jquery{
+    <script>
+        $("#navbar").addClass("hiddenbar");
+    </script>
+}
+<div id="container" class="container">
+    <div class="main" id="main">
+      <div class="login">
+        <div class="login-container">
+          <div class="login-form">
+            <h1 class="logo"><a href="/" class="btn_alpha"><img src="/common/images/logo.png"
+                  alt="Farmers Forest Group"></a></h1>
+            <h2 class="login-ttl">Login</h2>
+            <p class="login-txt">
+              DOWNSTREEM is a professional digital forensics practice,<br> specializing in Data Forensics and
+              Advisory Services.
+            </p>
+            <form asp-action="Login">
+              <div class="login-form-container">
+                <div class="login-items">
+                  <div >
+                    @*<p asp-for="Email" class="login-item-label">Username *</p>
+                    <input class="login-item-input" type="text" placeholder="Enter your username..." class="ip_cm">*@
+                    <label asp-for="Email" class="login-item-label"></label>
+                    <input asp-for="Email" type="text" class="login-item-input" class="ip_cm" placeholder="Enter your email..." aria-required="true" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                  </div>
+                  <div >
+                    @*<p class="login-item-label">Password *</p>*@
+                    @*<input class="login-item-input" type="password" placeholder="Enter your password..." class="ip_cm">*@
+                    <label asp-for="Password" class="login-item-label"></label>
+                    <input asp-for="Password" class="login-item-input" type="password" placeholder="Enter your password..." class="ip_cm" aria-required="true" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                  </div>
+                </div>
+                <div class="login-items-remember">
+                  <div class="group_form">
+                    <input asp-for="RememberMe" type="checkbox" id="rememberme" name="rememberme">
+                    <label asp-for="RememberMe"></label>
+                  </div>
+                  <a class="forgot-password" href="#">Forgot your password?</a>
+                </div>
+                <button type="submit" class="btn-default btn-login">Login</button>
+                <div class="login-create-account">
+                  <p>Not registered yet?</p><a class="login-create-account__item" href="#">Create an
+                    Account</a>
+                </div>
+              </div>
+            </form>
+            <!--#include virtual="/common/include/footer.inc"-->
+          </div>
+        </div>
+        <div class="login-background">
+          <figure><img src="./images/login-bg3.jpg" alt="Downstreem login" /></figure>
+        </div>
+      </div>
+    </div>
+</div>
+@*<div class="row">
     <div class="col col-md-6">
         <form asp-action="Login">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -23,7 +81,7 @@
             </div>
         </form>
     </div>
-</div>
+</div>*@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

@@ -15,5 +15,9 @@ html {
 
 body {
   margin-bottom: 60px;
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
+}
+
+.hiddenbar{
+    display: none;
 }

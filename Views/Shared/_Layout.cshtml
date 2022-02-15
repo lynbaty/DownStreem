@@ -3,17 +3,34 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="<!--#include virtual='/common/include/viewport.inc'-->">
+    <meta name="Description" content="<!--#include virtual='/common/include/description.inc'-->">
+    <meta name="Keywords" content="<!--#include virtual='/common/include/keywords.inc'-->">
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+
     <title>@ViewData["Title"] - DownStreem</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+@*
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+   <link rel="stylesheet" href="~/common/css/normalize.css">
+   <link rel="stylesheet" href="~/common/css/common.css">
+   <link rel="stylesheet" href="~/css/style.css">
+
 </head>
-<body>
-    <header>
+ <header id="navbar">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DownStreem</a>
@@ -23,21 +40,16 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - DownStreem
-        </div>
-    </footer>
+</header>
+<body>
+    @RenderBody()
+    @RenderSection("Scripts",required: false)
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/common/js/responsive_watcher.js"></script>
+    <script src="~/common/js/libs.js"></script>
+    <script src="~/common/js/base.js"></script>
+     @RenderSection("jquery",required: false)
 </body>
 </html>
