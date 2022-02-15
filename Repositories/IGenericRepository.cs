@@ -1,4 +1,5 @@
 ﻿using downstreem.Models;
+using downstreem.Specifications;
 
 namespace downstreem.Repositories
 {
@@ -9,5 +10,7 @@ namespace downstreem.Repositories
         Task<List<T>> GetAll();
         Task<T> GetbyId(int id);
         void Update(T entity);
+        Task<List<T>> GetAllwithSpec(IBaseSpecification<T> spec);
+        IQueryable<T> AddSpec(IBaseSpecification<T> spec);
     }
 }

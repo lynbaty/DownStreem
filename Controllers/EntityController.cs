@@ -3,6 +3,7 @@ using downstreem.Dtos;
 using downstreem.Models;
 using downstreem.Repositories;
 using downstreem.Services;
+using downstreem.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
 namespace downstreem.Controllers
@@ -19,9 +20,10 @@ namespace downstreem.Controllers
             _mapper = mapper;
             _imageUpload = imageUpload;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(GetEntityDTO model)
         {
-            var entities =await _unitOfWork.Repository<Entity>().GetAll();
+            var spec = new EntitywithSearchSpecification(model);
+            var entities =await _unitOfWork.Repository<Entity>().GetAllwithSpec(spec);
             return View(entities);
         }
 
