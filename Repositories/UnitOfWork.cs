@@ -37,6 +37,7 @@ namespace downstreem.Repositories
                 _repository.Add(type, repositoryInstance);
 
             }
+
             return (IGenericRepository<TEntity>)_repository[type];
         }
     }

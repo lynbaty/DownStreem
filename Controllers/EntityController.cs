@@ -22,7 +22,6 @@ namespace downstreem.Controllers
         public async Task<IActionResult> Index()
         {
             var entities =await _unitOfWork.Repository<Entity>().GetAll();
-
             return View(entities);
         }
 
@@ -39,16 +38,16 @@ namespace downstreem.Controllers
             {
                 return View(model);
             }
+            
             var entity = _mapper.Map<Entity>(model);
             if(model.Image!=null)
             {
                 entity.Image =await _imageUpload.UpImageAsync(model.Image);
             }    
+           
             entity.DateFirst = DateTime.Now.ToShortDateString();
-
             _unitOfWork.Repository<Entity>().Add(entity);
             await _unitOfWork.Complete();
-
             return RedirectToAction("Index");
         }
 
@@ -58,7 +57,6 @@ namespace downstreem.Controllers
             return View(_mapper.Map<EntityEditDTO>(entity));
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(EntityEditDTO model)
@@ -67,19 +65,16 @@ namespace downstreem.Controllers
             {
                 return View(model);
             }
+            
             var entity =await _unitOfWork.Repository<Entity>().GetbyId(model.Id);
-
             _mapper.Map(model, entity);
-
             if (model.UpdateImage != null)
             {
                 entity.Image = await _imageUpload.UpImageAsync(model.UpdateImage);
             }  
 
             _unitOfWork.Repository<Entity>().Update(entity);
-
             await _unitOfWork.Complete();
-
             return RedirectToAction("Index");
         }
 
@@ -88,14 +83,11 @@ namespace downstreem.Controllers
            return View(new EntityEditImageDTO { Id = id });
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditImage(EntityEditImageDTO model)
         {
-           
             var entity = await _unitOfWork.Repository<Entity>().GetbyId(model.Id);
-            
             if (model.UpdateImage != null)
             {
                 entity.Image = await _imageUpload.UpImageAsync(model.UpdateImage);
@@ -103,17 +95,14 @@ namespace downstreem.Controllers
 
             _unitOfWork.Repository<Entity>().Update(entity);
             await _unitOfWork.Complete();
-
             return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Delete(int id)
         {
             var entity = await _unitOfWork.Repository<Entity>().GetbyId(id);
-           
             _unitOfWork.Repository<Entity>().Delete(entity);
             await _unitOfWork.Complete();
-            
             return RedirectToAction("Index");
         }
     }

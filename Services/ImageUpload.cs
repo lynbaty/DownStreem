@@ -19,6 +19,7 @@
             {
                 await file.CopyToAsync(fileStream);
             }
+
             return "images/entities/" + name;
         }
 
