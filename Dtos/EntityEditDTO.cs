@@ -45,11 +45,5 @@ namespace downstreem.Dtos
         [Required]
         [Display(Name = "Occurrences")]
         public int Occurrences { get; set; }
-
-        [Required]
-        [Display(Name = "DateFirst")]
-        public string DateFirst { get; set; }
-
-        public string? Image { get; set; }
     }
 }

@@ -67,7 +67,9 @@ namespace downstreem.Controllers
             {
                 return View(model);
             }
-            var entity = _mapper.Map<Entity>(model);
+            var entity =await _unitOfWork.Repository<Entity>().GetbyId(model.Id);
+
+            _mapper.Map(model, entity);
 
             if (model.UpdateImage != null)
             {
@@ -75,6 +77,7 @@ namespace downstreem.Controllers
             }  
 
             _unitOfWork.Repository<Entity>().Update(entity);
+
             await _unitOfWork.Complete();
 
             return RedirectToAction("Index");
@@ -101,6 +104,16 @@ namespace downstreem.Controllers
             _unitOfWork.Repository<Entity>().Update(entity);
             await _unitOfWork.Complete();
 
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var entity = await _unitOfWork.Repository<Entity>().GetbyId(id);
+           
+            _unitOfWork.Repository<Entity>().Delete(entity);
+            await _unitOfWork.Complete();
+            
             return RedirectToAction("Index");
         }
     }
